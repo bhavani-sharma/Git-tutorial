@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
     marginTop:16,
   },
   registerText:{
-    color:'maroon',
+    color:'purple',
     fontWeight:'bold',
   },
   

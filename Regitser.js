@@ -34,6 +34,10 @@ const Regitser=()=>{
               <Text style={styles.buttonText}>Register</Text>
             </View>
           </TouchableOpacity>
+          <Text style={styles.register}>Already have an account?</Text>
+          <TouchableOpacity>
+            <Text style={styles.registerText}>Login</Text>
+          </TouchableOpacity>
         </View>
         </SafeAreaView>
         </View>
@@ -45,7 +49,7 @@ const styles = StyleSheet.create({
     flex: 1,
     borderWidht: 10,
     marginTop: 50,
-    justifyContent: 'center',
+
   },
   image: {
     width: 200,
